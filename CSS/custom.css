@@ -1,0 +1,37 @@
+
+
+/*--------DEFAULT STYLEPROPERTIES----------*/
+.full_width{
+    width: 100%;
+}
+
+.dflex{
+    display: flex;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.jbetween{
+    justify-content: space-between;
+}
+
+.icenter{
+    align-items: center;
+}
+
+/*------ADD BACKGROUND IMAGES----------*/
+
+.bg_images{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;  
+}
+

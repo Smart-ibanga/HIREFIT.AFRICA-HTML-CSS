@@ -1,0 +1,365 @@
+
+
+
+@media screen and (min-width:1024px){
+    /*-- HOME PAGE (DESKTOP)----*/
+    .container{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .menu-button{
+        display: none;
+    }
+
+    .menu_links{
+       align-self: center;
+    }
+
+    ul{
+        list-style-type: none;
+        text-decoration: none;
+        margin: auto;
+    }
+
+    .menu_links ul li {
+        display: inline-block;
+    }
+
+    .menu_links ul li a{
+        margin-left: 20px;
+        font-family: "inter", sans-serif;
+        font-size: 15px;  
+    }
+
+    .navbar{
+        margin: 0px;
+        padding: 58px 149px 60px;
+        height: 147px;
+     }
+
+     /*-----Hero-section-----*/
+
+    .hero {
+        margin-top: -90px;
+        width: 100%;
+        height: 829px;
+        background-image: url("../BACKGROUNDS/Rectangle27-widerscreen.svg");
+    }
+
+    .hero_flex{
+        display: flex;
+        width:100%;
+        padding-right:80px;
+        padding-left:150px;
+    }
+
+    .hero_text{
+        margin-top: 170px;
+        display: block;
+        text-align: left;
+        width: 50%;
+        height: 50%; 
+        flex: 1 0 50%;
+        }
+
+    .hero_text h1{
+        word-spacing: 5px;
+        font-weight: 600;
+        font-size: 37px;
+        line-height: 65px
+        }
+
+    .hero_text p{
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 43px;
+        align-items: center;
+        color: #6F758C;
+        margin-top: 30px;
+        }
+
+    .hero_image{
+        display: inline-block;
+        margin-top: 150px;
+        width: 50%;
+        height: 500%; 
+        flex: 1 0 50%; 
+        }
+
+    .team_img{
+        width: 100%;
+        height: 100%; 
+        flex: 1 0 100%;
+    }
+
+    button{
+        color: #FFFFFF;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        }
+
+    .button{
+        width: 257px;
+        height: 58px;
+        border-radius: 5px;
+        margin-top: 70px;
+        border: none;
+        background: #FD6A02;
+        }
+
+    /*-----section-----*/
+    
+    .section1, .section2, .section3, .section4 {
+        display: flex;
+        width:100vwh;
+        margin-bottom: 120px;
+      }
+        
+    .section1{
+        height: 350px;
+        margin-top: 41px;
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+    .section1 .card_images{
+        padding-left: 25px;
+        flex: 1 0 50%;
+        order: 2;
+    }
+
+    .img1{
+        align-self: center;
+        width: 100%;
+        height: 100%;
+        flex: 1 0 100%;
+    }
+
+    .section1 .card_text{
+        align-self: center;
+        padding-right: 25px;
+        flex: 1 0 50%;
+        order: 1;
+    }   
+    
+    .section1 .card_text h2{
+        font-weight: 600;
+        font-size: 33.2px;
+        line-height: 53px;
+        color: #3F4765;
+    }
+
+    .section1 .card_text p{
+        font-weight: 500;
+        font-size: 20.51px;
+        line-height: 35px;
+        color: #6F758C;
+    }
+
+    .section2 {
+        height: 350px;
+        margin-right: 15%;
+        margin-left: 15%;  
+    }
+
+    .section2 .card_images{
+        padding-left: 25px;
+        flex: 1 0 50%;
+    }
+    
+    .section2 .card_text{
+        align-self: center;
+        padding-left: 25px;
+        flex: 1 0 50%;                                                                                                                                                                                                                                                                                                                                                                                                         
+    }
+
+    .section2 .card_text h2{
+        font-weight: 600;
+        font-size: 33.2px;
+        line-height: 53px;
+        color: #3F4765;
+    }
+
+    .section3 .card_text p{
+        font-weight: 500;
+        font-size: 20.51px;
+        line-height: 35px;
+        color: #6F758C;
+    }
+
+    .img2{
+        width: 100%;
+        height: 100%;
+        flex: 1 0 50%;
+    }
+
+    
+    .section3 {
+        height: 350px;
+        margin-right: 5%;
+        margin-left: 5%;  
+    }
+
+    .section3 .card_images{
+        padding-left: 25px;
+        flex: 1 0 50%;
+        order: 2;   
+    }
+    
+    .section3 .card_text{
+        align-self: center;
+        padding-left: 25px;
+        flex: 1 0 50%; 
+        order: 1;                                                                                                                                                                                                                                                                                                                                                                                                        
+    }
+
+    .section3 .card_text h2{
+        font-weight: 600;
+        font-size: 33.2px;
+        line-height: 53px;
+        color: #3F4765;
+    }
+
+    .section3 .card_text p{
+        font-weight: 500;
+        font-size: 20.51px;
+        line-height: 35px;
+        color: #6F758C;
+    }
+
+    .img3{
+        width: 100%;
+        height: 100%;
+        flex: 1 0 50%;
+    }
+
+    .section4{
+        height: 350px;
+        margin-right: 5%;
+        margin-left: 5%;
+    }    
+
+    .section4 .card_images{
+        padding-left: 25px;
+        flex: 1 0 50%;
+    }
+
+    .img4{
+        align-self: center;
+        width: 100%;
+        height: 100%;
+        flex: 1 0 100%;
+    }
+
+    .section4 .card_text{
+        align-self: center;
+        padding-right: 25px;
+        flex: 1 0 50%;
+        order: 1;
+    }   
+    
+    .section4 .card_text h2{
+        font-weight: 600;
+        font-size: 33.2px;
+        line-height: 53px;
+        color: #3F4765;
+    }
+
+    .section4 .card_text p{
+        font-weight: 500;
+        font-size: 20.51px;
+        line-height: 35px;
+        color: #6F758C;
+    }
+
+    .section5{
+        margin-top: -50px;
+        width: 100vw;
+        height: 1051px;
+        background-image: url("../BACKGROUNDS/background-base/widescreenbase.svg")
+    }
+   
+    .section5_flex{
+        display: flex;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .section5 .card_images{
+        margin-top: 300px;
+        padding-left: 25px;
+        flex: 1 0 50%;
+    }
+
+    .img5{
+        width: 85%;
+        height: 85%;
+    }
+
+    .section5 .card_text{
+        margin-top: 300px;
+        align-self: center;
+        padding-right: 25px;
+        flex: 1 0 50%;
+    }
+
+    .section5 .card_text h2{
+        font-weight: 600;
+        font-size: 33.2px;
+        line-height: 53px;
+        color: #3F4765;
+    }
+
+    .section5 .card_text p{                                                                      
+        font-weight: 500;
+        font-size: 20.51px;
+        line-height: 35px;
+        color: #6F758C;
+        margin-bottom: 20px;
+    }
+
+    button{
+        color: #FFFFFF;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        }
+
+    .button1{
+        width: 25vw;
+        height: 50px;
+        margin-right: 5%;
+        background: #FD6A02;
+        border-radius: 5px;
+        border: none;
+    }
+
+    footer{
+        font-size: 10px;
+        color: #6F758C; 
+    }
+
+    .footer{
+        width: 100vw;
+        height: 147px; 
+        padding-top: 62px;
+        padding-left: 15%;
+    }
+
+    .Footer-image{
+        width: 161px;
+        height: 24px;
+        margin-bottom: 5px;
+    }
+
+
+
+}
+
+
+   

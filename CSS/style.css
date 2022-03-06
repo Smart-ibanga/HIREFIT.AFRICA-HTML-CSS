@@ -1,0 +1,44 @@
+@import "../CSS/mobile.css";
+@import "../css/tablets.css";
+@import "../CSS/extended.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*, ::after, ::before{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;      
+}  
+
+
+body{
+    margin: 0px;
+    background-color: #FFFFFF;
+}
+
+h1, h2, h3{
+    font-family: 'inter', sans-serif;
+    font-style: normal;
+    font-weight: 300px;
+    color: #3F4765;
+}    
+
+p{
+    font-family: 'inter', sans-serif;
+    font-style: normal;
+    font-weight: 500px;
+    word-spacing: 2px;
+    line-height: 25px;
+    color: #6F758C;
+}
+
+
+.navbar{
+    background-color: #F9FBFC;
+    align-items: center;
+}
+
+.img-logo{
+    display: block;
+    width: 161px;
+    height: 24px;
+}
